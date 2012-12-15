@@ -1,0 +1,47 @@
+Name: Junior Samaroo
+User ID: jsamaroo
+Student ID# 0663108
+CIS3110 Assignment 2
+
+Probelm Solved:
+Program Scheduling was not completed entirely, however many working functions were implemented.
+-arguments were successfully tokenized
+-creates database file "db" in "/tmp". If it does not exists else just adds process info to database
+-file locking implmented
+-"pname" arg is properly executed in the background scheduler and switches between
+	processes every 60 seconds.
+-"w" is properly tokenized and lowest idle time(converted to seconds), number of 
+	logged in users and load time is properly collected.
+-database is deleted and processes terminated if scavenger is terminated by
+	SIGINT, SIGQUIT, SIGTERM, SIGHUP and SIGABRT.
+
+Design notes / How problem was solved:
+-Arguments and "w" was simply tokenized using "strtok()" to obtain required data.
+-The PID,IDLE,LOAD,USERtime of each process was stored in a struct for easy access
+	and reading from and writing to the database.
+-Database existance was checked using the "access()" function.
+-the active processes in the database file were killed by getting the PID of each
+	struct from the database and sending a SIGKILL to each within a loop.
+-making sure only one process had access to the file at a time was implmented using flock().
+
+Limitations/Assumptions:
+-scheduling does not work enitely. A simple sceduler however is set up where each
+	process in the background scavenger runs for 60s time slice while the others are stopped
+	by checking load averages with IDLE time. The first process that is SIGCONT however has an extra 10s added to it.
+	The USER, BUSY times are indeed collected however was not compared/implmented in the
+	scheduling as I did not get enough time to do it. This cycling process occurs infinitely
+	until scavenger is terminated using SIGINT, SIGQUIT, SIGTERM, SIGHUP or SIGABRT.
+-User idle time in days were not accounted for.
+-If a process is ended it is not removed from the database.
+
+Testing:
+-Personal testing was done with a process that was an infinite loop. This was successfully
+	executed in the background multiple times and system control given to each
+	process after 60s time slices. This testing was the same as discussed in the
+	limitations/assumptions.
+-In this testing case, terminating scavenger kills scavenger and its running background processes.
+
+Improvements
+-If given more time the scheduling function could have been completed as all the required information
+	needed for scheduling from "w" is already successfully obtained and collected. Only comparisons of the
+	values have to be implemented into the scheduling function.

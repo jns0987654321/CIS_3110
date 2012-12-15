@@ -1,0 +1,76 @@
+TUntitled
+v7
+r0
+t318129481.293920
+cCheck dependencies
+cCompileC build/Untitled.build/Debug/Untitled.build/Objects-normal/x86_64/main.o /Users/juniorsamaroo/Documents/Classes/semester4/CIS_3110/assignments/Untitled/main.c normal x86_64 c com.apple.compilers.gcc.4_2
+cLd /Users/juniorsamaroo/Documents/Classes/semester4/CIS_3110/assignments/Untitled/build/Debug/Untitled normal x86_64
+
+N/Developer/SDKs/MacOSX10.6.sdk
+c000000004A769DAB00000000000000EE
+t1249287595
+s238
+
+N/Developer/SDKs/MacOSX10.6.sdk/usr/include/signal.h
+c000000004A5C14A700000000000014F0
+t1247548583
+s5360
+
+N/Developer/SDKs/MacOSX10.6.sdk/usr/include/stdio.h
+c000000004A5C14A70000000000004174
+t1247548583
+s16756
+
+N/Developer/SDKs/MacOSX10.6.sdk/usr/include/unistd.h
+c000000004A5C14A7000000000000563E
+t1247548583
+s22078
+
+N/Users/juniorsamaroo/Documents/Classes/semester4/CIS_3110/assignments/Untitled/build/Debug/Untitled
+t1296436664
+s9680
+
+N/Users/juniorsamaroo/Documents/Classes/semester4/CIS_3110/assignments/Untitled/build/Untitled.build/Debug/Untitled.build/Objects-normal/x86_64/Untitled.LinkFileList
+c000000004D4609DB0000000000000096
+t1296435675
+s150
+
+N/Users/juniorsamaroo/Documents/Classes/semester4/CIS_3110/assignments/Untitled/build/Untitled.build/Debug/Untitled.build/Objects-normal/x86_64/main.o
+t1296436664
+s4852
+
+N/Users/juniorsamaroo/Documents/Classes/semester4/CIS_3110/assignments/Untitled/main.c
+c000000004D460DB800000000000004A1
+t1296436664
+s1185
+i<stdio.h>
+i<unistd.h>
+i<signal.h>
+
+CCheck dependencies
+r0
+lSLF07#2@18"Check dependencies318129481#318129481#0(0"0(0#1#0"8611071392#0"0#
+
+CCompileC build/Untitled.build/Debug/Untitled.build/Objects-normal/x86_64/main.o /Users/juniorsamaroo/Documents/Classes/semester4/CIS_3110/assignments/Untitled/main.c normal x86_64 c com.apple.compilers.gcc.4_2
+s318129464.779663
+e318129464.858762
+r1
+xCompileC
+xbuild/Untitled.build/Debug/Untitled.build/Objects-normal/x86_64/main.o
+x/Users/juniorsamaroo/Documents/Classes/semester4/CIS_3110/assignments/Untitled/main.c
+xnormal
+xx86_64
+xc
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@93"Compile /Users/juniorsamaroo/Documents/Classes/semester4/CIS_3110/assignments/Untitled/main.c318129464#318129464#0(0"0(0#0#85"/Users/juniorsamaroo/Documents/Classes/semester4/CIS_3110/assignments/Untitled/main.c8611474336#1728"    cd /Users/juniorsamaroo/Documents/Classes/semester4/CIS_3110/assignments/Untitled    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x c -arch x86_64 -fmessage-length=0 -pipe -std=gnu99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/SDKs/MacOSX10.6.sdk -mfix-and-continue -mmacosx-version-min=10.6 -gdwarf-2 -iquote /Users/juniorsamaroo/Documents/Classes/semester4/CIS_3110/assignments/Untitled/build/Untitled.build/Debug/Untitled.build/Untitled-generated-files.hmap -I/Users/juniorsamaroo/Documents/Classes/semester4/CIS_3110/assignments/Untitled/build/Untitled.build/Debug/Untitled.build/Untitled-own-target-headers.hmap -I/Users/juniorsamaroo/Documents/Classes/semester4/CIS_3110/assignments/Untitled/build/Untitled.build/Debug/Untitled.build/Untitled-all-target-headers.hmap -iquote /Users/juniorsamaroo/Documents/Classes/semester4/CIS_3110/assignments/Untitled/build/Untitled.build/Debug/Untitled.build/Untitled-project-headers.hmap -F/Users/juniorsamaroo/Documents/Classes/semester4/CIS_3110/assignments/Untitled/build/Debug -I/Users/juniorsamaroo/Documents/Classes/semester4/CIS_3110/assignments/Untitled/build/Debug/include -I/Users/juniorsamaroo/Documents/Classes/semester4/CIS_3110/assignments/Untitled/build/Untitled.build/Debug/Untitled.build/DerivedSources/x86_64 -I/Users/juniorsamaroo/Documents/Classes/semester4/CIS_3110/assignments/Untitled/build/Untitled.build/Debug/Untitled.build/DerivedSources -c /Users/juniorsamaroo/Documents/Classes/semester4/CIS_3110/assignments/Untitled/main.c -o /Users/juniorsamaroo/Documents/Classes/semester4/CIS_3110/assignments/Untitled/build/Untitled.build/Debug/Untitled.build/Objects-normal/x86_64/main.o0#
+
+CLd /Users/juniorsamaroo/Documents/Classes/semester4/CIS_3110/assignments/Untitled/build/Debug/Untitled normal x86_64
+s318129464.858834
+e318129464.943027
+r1
+xLd
+x/Users/juniorsamaroo/Documents/Classes/semester4/CIS_3110/assignments/Untitled/build/Debug/Untitled
+xnormal
+xx86_64
+lSLF07#2@104"Link /Users/juniorsamaroo/Documents/Classes/semester4/CIS_3110/assignments/Untitled/build/Debug/Untitled318129464#318129464#0(0"0(0#0#0"8611490752#702"    cd /Users/juniorsamaroo/Documents/Classes/semester4/CIS_3110/assignments/Untitled    setenv MACOSX_DEPLOYMENT_TARGET 10.6    /Developer/usr/bin/gcc-4.2 -arch x86_64 -isysroot /Developer/SDKs/MacOSX10.6.sdk -L/Users/juniorsamaroo/Documents/Classes/semester4/CIS_3110/assignments/Untitled/build/Debug -F/Users/juniorsamaroo/Documents/Classes/semester4/CIS_3110/assignments/Untitled/build/Debug -filelist /Users/juniorsamaroo/Documents/Classes/semester4/CIS_3110/assignments/Untitled/build/Untitled.build/Debug/Untitled.build/Objects-normal/x86_64/Untitled.LinkFileList -mmacosx-version-min=10.6 -o /Users/juniorsamaroo/Documents/Classes/semester4/CIS_3110/assignments/Untitled/build/Debug/Untitled0#
+

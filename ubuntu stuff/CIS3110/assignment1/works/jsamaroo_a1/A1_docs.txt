@@ -1,0 +1,34 @@
+Name: Junior Samaroo
+User ID: jsamaroo
+Student ID# 0663108
+CIS3110 Assignment 1
+
+Probelm Solved:
+- Both processes correctly gets PID of the other process.
+- A string can be sent from deepthraot to thewashingtonpost using signals.
+- Incorrect signal received simulated.
+
+Design notes / How problem was solved:
+- PID of both processes was solved using "pidof" and "popen" and simply
+  reading the output from the filestream into a string and converting it
+  to an integer.
+- Using SIGUSR1 to represent a "1" being received and SIGUSR2 to represent
+  a "0" being received, the characters of the message to be sent was
+  converted to bits by division and sent via these signals. The bits were 
+  then reassembled by thewashingtonpost doing the opposite process.
+- Incorrect signals being received were simulated using "rand" where "0"
+  represented an uninterrupted signal and the others representing flipped
+  and lost signals.
+
+Assumptions:
+- It is assumed both process would quit after sending and receiving the message.
+- It is assumed that deepthroat always starts before thewashingtonpost.
+
+Limitations:
+- If thewashingtonpost starts first, both processes dont fucntion properly
+  as no defensive programming was implented for this action.
+
+Testing:
+- Starting deepthroat first follwed by thewashingtonpost and sending
+  "hello world" via deepthroat would result in "Message sent is: hello world"
+  being output in the terminal of thewashingtonpost. Both processes then quit.

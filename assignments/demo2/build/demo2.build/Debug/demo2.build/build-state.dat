@@ -1,0 +1,74 @@
+Tdemo2
+v7
+r0
+t318135154.276867
+cCheck dependencies
+cCompileC build/demo2.build/Debug/demo2.build/Objects-normal/x86_64/main.o /Users/juniorsamaroo/Documents/Classes/semester4/CIS_3110/assignments/demo2/main.c normal x86_64 c com.apple.compilers.gcc.4_2
+
+N/Developer/SDKs/MacOSX10.6.sdk
+c000000004A769DAB00000000000000EE
+t1249287595
+s238
+
+N/Developer/SDKs/MacOSX10.6.sdk/usr/include/signal.h
+c000000004A5C14A700000000000014F0
+t1247548583
+s5360
+
+N/Developer/SDKs/MacOSX10.6.sdk/usr/include/stdio.h
+c000000004A5C14A70000000000004174
+t1247548583
+s16756
+
+N/Developer/SDKs/MacOSX10.6.sdk/usr/include/sys/types.h
+c000000004A73D6550000000000002905
+t1249105493
+s10501
+
+N/Developer/SDKs/MacOSX10.6.sdk/usr/include/unistd.h
+c000000004A5C14A7000000000000563E
+t1247548583
+s22078
+
+N/Users/juniorsamaroo/Documents/Classes/semester4/CIS_3110/assignments/demo2/build/Debug/demo2
+t2
+s0
+
+N/Users/juniorsamaroo/Documents/Classes/semester4/CIS_3110/assignments/demo2/build/demo2.build/Debug/demo2.build/Objects-normal/x86_64/demo2.LinkFileList
+c000000004D462387000000000000008D
+t1296442247
+s141
+
+N/Users/juniorsamaroo/Documents/Classes/semester4/CIS_3110/assignments/demo2/build/demo2.build/Debug/demo2.build/Objects-normal/x86_64/main.o
+t2
+s0
+
+N/Users/juniorsamaroo/Documents/Classes/semester4/CIS_3110/assignments/demo2/main.c
+c000000004D4623EE0000000000000252
+t1296442350
+s594
+i<stdio.h>
+i<unistd.h>
+i<sys/types.h>
+i<signal.h>
+
+CCheck dependencies
+r0
+lSLF07#2@18"Check dependencies318135154#318135154#0(0"0(0#1#0"8604985376#0"0#
+
+CCompileC build/demo2.build/Debug/demo2.build/Objects-normal/x86_64/main.o /Users/juniorsamaroo/Documents/Classes/semester4/CIS_3110/assignments/demo2/main.c normal x86_64 c com.apple.compilers.gcc.4_2
+s318135154.275518
+e318135154.276738
+r0
+xCompileC
+xbuild/demo2.build/Debug/demo2.build/Objects-normal/x86_64/main.o
+x/Users/juniorsamaroo/Documents/Classes/semester4/CIS_3110/assignments/demo2/main.c
+xnormal
+xx86_64
+xc
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@90"Compile /Users/juniorsamaroo/Documents/Classes/semester4/CIS_3110/assignments/demo2/main.c318135154#318135154#0(395"/Users/juniorsamaroo/Documents/Classes/semester4/CIS_3110/assignments/demo2/main.c: In function 'main':/Users/juniorsamaroo/Documents/Classes/semester4/CIS_3110/assignments/demo2/main.c:7: warning: passing argument 1 of 'fprintf' from incompatible pointer type/Users/juniorsamaroo/Documents/Classes/semester4/CIS_3110/assignments/demo2/main.c:7: error: too few arguments to function 'fprintf'2(22@62"Passing argument 1 of 'fprintf' from incompatible pointer type318135154#104#158#0(6@82"/Users/juniorsamaroo/Documents/Classes/semester4/CIS_3110/assignments/demo2/main.c318135150#7#0#7#0#56"passing argument * of '*' from incompatible pointer type0(4@39"Too few arguments to function 'fprintf'318135154#262#133#0(6@82"/Users/juniorsamaroo/Documents/Classes/semester4/CIS_3110/assignments/demo2/main.c318135150#7#0#7#0#33"too few arguments to function '*'0(0#0#82"/Users/juniorsamaroo/Documents/Classes/semester4/CIS_3110/assignments/demo2/main.c8600544768#1641"    cd /Users/juniorsamaroo/Documents/Classes/semester4/CIS_3110/assignments/demo2    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x c -arch x86_64 -fmessage-length=0 -pipe -std=gnu99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/SDKs/MacOSX10.6.sdk -mfix-and-continue -mmacosx-version-min=10.6 -gdwarf-2 -iquote /Users/juniorsamaroo/Documents/Classes/semester4/CIS_3110/assignments/demo2/build/demo2.build/Debug/demo2.build/demo2-generated-files.hmap -I/Users/juniorsamaroo/Documents/Classes/semester4/CIS_3110/assignments/demo2/build/demo2.build/Debug/demo2.build/demo2-own-target-headers.hmap -I/Users/juniorsamaroo/Documents/Classes/semester4/CIS_3110/assignments/demo2/build/demo2.build/Debug/demo2.build/demo2-all-target-headers.hmap -iquote /Users/juniorsamaroo/Documents/Classes/semester4/CIS_3110/assignments/demo2/build/demo2.build/Debug/demo2.build/demo2-project-headers.hmap -F/Users/juniorsamaroo/Documents/Classes/semester4/CIS_3110/assignments/demo2/build/Debug -I/Users/juniorsamaroo/Documents/Classes/semester4/CIS_3110/assignments/demo2/build/Debug/include -I/Users/juniorsamaroo/Documents/Classes/semester4/CIS_3110/assignments/demo2/build/demo2.build/Debug/demo2.build/DerivedSources/x86_64 -I/Users/juniorsamaroo/Documents/Classes/semester4/CIS_3110/assignments/demo2/build/demo2.build/Debug/demo2.build/DerivedSources -c /Users/juniorsamaroo/Documents/Classes/semester4/CIS_3110/assignments/demo2/main.c -o /Users/juniorsamaroo/Documents/Classes/semester4/CIS_3110/assignments/demo2/build/demo2.build/Debug/demo2.build/Objects-normal/x86_64/main.o1#
+
+CLd /Users/juniorsamaroo/Documents/Classes/semester4/CIS_3110/assignments/demo2/build/Debug/demo2 normal x86_64
+r0
+

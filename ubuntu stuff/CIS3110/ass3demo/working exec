@@ -1,0 +1,84 @@
+   if (request.type == EXE)
+	{
+		//if ((pidFork = fork()) == 0)
+		//{
+			int i=0;
+			char buf[256];
+			while (buff != NULL)
+			{
+				printf ("%s\n",buff);
+				args[i] = buff;
+				buff = strtok (NULL, " ");
+				i++;
+			}
+			if ((pidFork = fork()) == 0){
+				close(1);
+				dup2(sock,1);		/* Technically dup(fd) would suffice */
+				close(sock);
+			//	printf("child");
+				//strcat(response.text, "Successfulllss!!\n");
+				sleep(1);
+				n = read(1, &response, sizeof(packet));
+				printf("thissssssssssssssss %s\n", response.text);
+				
+			if (execv(args[0],args) != -1)
+			{
+				response.type = ERR;
+				strcat(response.text, "Error executing file!!..ERRR\n");
+				n = write(sock, &response, sizeof(packet));	
+			}
+		}
+			//else{
+			//	printf("", stdout);
+				response.type = ACK;
+				//~ while (fgets(buf,256,sock) != NULL)
+				//~ printf("this is it %s\n", buf);
+			strcat(response.text, "Successss!!\n");
+				n = write(sock, &response, sizeof(packet));	
+						printf("hidfhtshgtsriii\n");
+										n = write(sock, &response, sizeof(packet));	
+
+
+			//}
+		//}
+		
+
+		printf("hiiii\n");
+
+		
+		//~ char**args =malloc(sizeof(char*)*(argc-3));
+		//~ for(i =0; i<argc-4;i++)
+		//~ {
+			//~ args[i] = argv[i+4];
+		//~ }
+		//~ args[argc-4] = NULL;
+		//~ execv(argv[4],args);
+		
+			//~ //printf("listing\n");
+			//~ fp = popen("ls", "r"); 
+			//~ while (fgets(buffer, sizeof(buffer), fp))
+					//~ strcat(response.text, buffer);
+					//~ response.type = ACK;
+						//~ n = write(sock, &response, sizeof(packet));
+
+	}
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	n = write(sockfd, &response, sizeof(packet));
+
+			if (response.type == ACK)
+			{
+			n = read(sockfd, &response, sizeof(packet));
+				printf("ack one %s\n", response.text);
+				n = read(sockfd, &response, sizeof(packet));
+				printf("ack rwo %s\n", response.text);
+			}
+		

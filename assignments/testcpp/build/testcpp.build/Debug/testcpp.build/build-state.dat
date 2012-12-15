@@ -1,0 +1,61 @@
+Ttestcpp
+v7
+r0
+t327712905.892985
+cCheck dependencies
+cCompileC build/testcpp.build/Debug/testcpp.build/Objects-normal/x86_64/main.o /Users/juniorsamaroo/Documents/Classes/semester4/CIS_3110/assignments/testcpp/main.cpp normal x86_64 c++ com.apple.compilers.gcc.4_2
+cLd /Users/juniorsamaroo/Documents/Classes/semester4/CIS_3110/assignments/testcpp/build/Debug/testcpp normal x86_64
+
+N/Developer/SDKs/MacOSX10.6.sdk
+c000000004A769DAB00000000000000EE
+t1249287595
+s238
+
+N/Users/juniorsamaroo/Documents/Classes/semester4/CIS_3110/assignments/testcpp/build/Debug/testcpp
+t1306020105
+s19552
+
+N/Users/juniorsamaroo/Documents/Classes/semester4/CIS_3110/assignments/testcpp/build/testcpp.build/Debug/testcpp.build/Objects-normal/x86_64/main.o
+t1306020105
+s85740
+
+N/Users/juniorsamaroo/Documents/Classes/semester4/CIS_3110/assignments/testcpp/build/testcpp.build/Debug/testcpp.build/Objects-normal/x86_64/testcpp.LinkFileList
+c000000004DD8442F0000000000000093
+t1306018863
+s147
+
+N/Users/juniorsamaroo/Documents/Classes/semester4/CIS_3110/assignments/testcpp/main.cpp
+c000000004DD848FB0000000000001200
+t1306020091
+s4608
+i<iostream>
+i<string>
+i<sstream>
+
+CCheck dependencies
+r0
+lSLF07#2@18"Check dependencies327712903#327712903#0(0"0(0#1#0"3343187568374212096#0"0#
+
+CCompileC build/testcpp.build/Debug/testcpp.build/Objects-normal/x86_64/main.o /Users/juniorsamaroo/Documents/Classes/semester4/CIS_3110/assignments/testcpp/main.cpp normal x86_64 c++ com.apple.compilers.gcc.4_2
+s327712903.605241
+e327712905.177423
+r1
+xCompileC
+xbuild/testcpp.build/Debug/testcpp.build/Objects-normal/x86_64/main.o
+x/Users/juniorsamaroo/Documents/Classes/semester4/CIS_3110/assignments/testcpp/main.cpp
+xnormal
+xx86_64
+xc++
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@94"Compile /Users/juniorsamaroo/Documents/Classes/semester4/CIS_3110/assignments/testcpp/main.cpp327712903#327712905#0(0"0(0#0#86"/Users/juniorsamaroo/Documents/Classes/semester4/CIS_3110/assignments/testcpp/main.cpp7310238792822256640#1720"    cd /Users/juniorsamaroo/Documents/Classes/semester4/CIS_3110/assignments/testcpp    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x c++ -arch x86_64 -fmessage-length=0 -pipe -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/SDKs/MacOSX10.6.sdk -mfix-and-continue -fvisibility-inlines-hidden -mmacosx-version-min=10.6 -gdwarf-2 -iquote /Users/juniorsamaroo/Documents/Classes/semester4/CIS_3110/assignments/testcpp/build/testcpp.build/Debug/testcpp.build/testcpp-generated-files.hmap -I/Users/juniorsamaroo/Documents/Classes/semester4/CIS_3110/assignments/testcpp/build/testcpp.build/Debug/testcpp.build/testcpp-own-target-headers.hmap -I/Users/juniorsamaroo/Documents/Classes/semester4/CIS_3110/assignments/testcpp/build/testcpp.build/Debug/testcpp.build/testcpp-all-target-headers.hmap -iquote /Users/juniorsamaroo/Documents/Classes/semester4/CIS_3110/assignments/testcpp/build/testcpp.build/Debug/testcpp.build/testcpp-project-headers.hmap -F/Users/juniorsamaroo/Documents/Classes/semester4/CIS_3110/assignments/testcpp/build/Debug -I/Users/juniorsamaroo/Documents/Classes/semester4/CIS_3110/assignments/testcpp/build/Debug/include -I/Users/juniorsamaroo/Documents/Classes/semester4/CIS_3110/assignments/testcpp/build/testcpp.build/Debug/testcpp.build/DerivedSources/x86_64 -I/Users/juniorsamaroo/Documents/Classes/semester4/CIS_3110/assignments/testcpp/build/testcpp.build/Debug/testcpp.build/DerivedSources -c /Users/juniorsamaroo/Documents/Classes/semester4/CIS_3110/assignments/testcpp/main.cpp -o /Users/juniorsamaroo/Documents/Classes/semester4/CIS_3110/assignments/testcpp/build/testcpp.build/Debug/testcpp.build/Objects-normal/x86_64/main.o0#
+
+CLd /Users/juniorsamaroo/Documents/Classes/semester4/CIS_3110/assignments/testcpp/build/Debug/testcpp normal x86_64
+s327712905.177608
+e327712905.892927
+r1
+xLd
+x/Users/juniorsamaroo/Documents/Classes/semester4/CIS_3110/assignments/testcpp/build/Debug/testcpp
+xnormal
+xx86_64
+lSLF07#2@102"Link /Users/juniorsamaroo/Documents/Classes/semester4/CIS_3110/assignments/testcpp/build/Debug/testcpp327712905#327712905#0(0"0(0#0#0"8603001280#693"    cd /Users/juniorsamaroo/Documents/Classes/semester4/CIS_3110/assignments/testcpp    setenv MACOSX_DEPLOYMENT_TARGET 10.6    /Developer/usr/bin/g++-4.2 -arch x86_64 -isysroot /Developer/SDKs/MacOSX10.6.sdk -L/Users/juniorsamaroo/Documents/Classes/semester4/CIS_3110/assignments/testcpp/build/Debug -F/Users/juniorsamaroo/Documents/Classes/semester4/CIS_3110/assignments/testcpp/build/Debug -filelist /Users/juniorsamaroo/Documents/Classes/semester4/CIS_3110/assignments/testcpp/build/testcpp.build/Debug/testcpp.build/Objects-normal/x86_64/testcpp.LinkFileList -mmacosx-version-min=10.6 -o /Users/juniorsamaroo/Documents/Classes/semester4/CIS_3110/assignments/testcpp/build/Debug/testcpp0#
+
